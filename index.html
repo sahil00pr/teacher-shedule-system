@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Teacher Schedule System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><p>Teacher Shedule system</p></div>
+
+        <div class="teachers">
+            <label class="te1">Teachers</label>
+            <select id="si1" name="size">
+                <option value="tea">--choose--</option>
+                <option value="tea">Mrs.Neha Sharma</option>
+                <option value="tea">Mr.sandip patil</option>
+                <option value="tea">Ms.vaishnavi Pujari</option>
+                <option value="tea">Mrs.Ashwini Deshpande</option>
+                <option value="tea">Mrs.Anjali Sakurkar</option>  
+        </select>
+        </div>
+        <div class="mom">
+            <div class="days">
+                <label class="da1">Days</label>
+                <select id="days" name="Days">
+                    <option value="da1">--choose--</option>
+                    <option value="da1">Monday</option>
+                    <option value="da1">Tuesday</option>
+                    <option value="da1">Wednesday</option>
+                    <option value="da1">Thursday</option>
+                    <option value="da1">Friday</option>
+                    <option value="da1">Saturday</option>     
+            </select>
+            </div>
+            <div class="time">
+                <div class="le1"><label class="ti1">Time</label></div>
+                <div class="tim1">
+                <select id="time" name="Time">
+                    <option value="dat1">--choose--</option>
+                    <option value="dat1">8:00-9:00</option>
+                    <option value="dat1">9:00-10:00</option>
+                    <option value="dat1">10:00-11:00</option>
+                    <option value="dat1">11:00-12:00</option>
+                    <option value="dat1l">12:00-1:00</option>
+                    <option value="dat1xl">1:00-2:00</option>
+                </select>                
+            </div>            
+        </div>        
+    </div>        
+    <div class="date">
+            <label class="da2">Date</label>
+            <input type="date" value="date">
+        </div>
+        <input onclick="show1()" type="submit" value="Submit" class="btn">
+    </div>
+    <script>
+        function show1() {
+            alert("New Schedule Added Successfully.")
+        }
+    </script>
+</body>
+</html>
